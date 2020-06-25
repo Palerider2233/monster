@@ -12,7 +12,7 @@ public class TimedSpawn : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        InvokeRepeating("SpaenObject".spawnTime,spawnDelay);
+        InvokeRepeating("SpawnObject".spawnTime,spawnDelay);
     }
     public void SpawnObject();
     {
